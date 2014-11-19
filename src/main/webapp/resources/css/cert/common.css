@@ -1,0 +1,14 @@
+
+.content-body { padding:15px 0;}
+
+/* 表格 */
+.table { border-top:1px #a6c9e2 solid; border-right:1px #a6c9e2 solid; margin-bottom:10px; font-family: arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif }
+.table tr { background:#FFF;}
+.table tr:hover { background:#d0e5f5;}
+.table th { text-align:center; font-size:14px; background:#FAFAFA; line-height:26px; border-left:1px #a6c9e2 solid; border-bottom:1px #a6c9e2 solid; color:#2e6e9e; }
+.table td { font-size:14px; line-height:24px; border-left:1px #a6c9e2 solid; border-bottom:1px #a6c9e2 solid; padding:0 3px; text-align:center;overflow:hidden;}
+.table td a:hover { text-decoration:underline;}
+.table td input[type="button"] {cursor:pointer; margin:0px 5px; outline:none;}
+.table td.title { height:25px; line-height:25px; font-size:14px; text-align:left; text-indent:5px; background:#FAFAFA; color:gray;}
+a.link{
+}

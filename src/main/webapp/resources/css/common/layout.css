@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+body {
+	background: url("../../images/main/bg.png");
+}
+.ui.grid>.row {
+	margin-top: 78px;
+}
+
+.ui.grid>.column,.ui.grid>.row>.column {
+	padding-left: 0px;
+	padding-right: 0.5%;
+}
+
+.ui.menu .header.item, .ui.accordion .title, .ui.accordion .active.title{
+	background-color: #f8f8f8;
+	background: -webkit-linear-gradient(top, #f8f8f8, #f2f2f2);
+	border-bottom: 1px solid #ddd;
+	box-shadow: inset 0px 1px 1px #fff;
+}
+
+.ui.list .item {
+	padding: .6em .2em;
+}
+
+.ui.animated.list {
+	margin: -24px 0;
+}
+
+.ui.accordion .accordion .content, .ui.accordion .content{
+	padding:1.5em .1em;
+}
+
+.ui.menu .active.item {
+	background-color: #f2f2f2;
+	background: -webkit-linear-gradient(bottom, #f2f2f2, #f8f8f8);
+	padding-left: 1em;
+}
+
+.ui.menu.top {
+	height: 85px;
+	background: url("../../images/main/top_bg.png") repeat-x;
+}
+
+.ui.fixed.fluid.vertical.menu.pushed {
+	width: 18% !important;
+}
+
+.container {
+	width: 100% !important;
+	height: 85px;
+	background: url("../../images/main/title.png") no-repeat;
+}

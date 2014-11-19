@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("default.css");
+
+.main-top {
+	padding-left: 0px;
+	padding-right: 0px;
+	z-index: 6;
+}
+
+.logo-bg {
+	height: 85px;
+	background: url("../../images/main/top_bg.png") repeat-x;
+}
+
+.logo-left {
+	height: 85px;
+	background: url("../../images/main/title.png") no-repeat;
+}
+
+.logo-user {
+	color: #fff;
+	padding-top: 22px;
+	padding-right: 15px;
+}
+
+.logo-btndown {
+	/*height: 34px;*/
+	
+}
+
+.main-sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 300px;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 90px;
+	z-index: 2;
+}
+
+.main-wrapper {
+	position: absolute;
+	margin-top: 90px; top : 0px;
+	/*bottom: 0;*/
+	left: 305px;
+	right: 0;
+	bottom: 0;
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 2;
+	top: 0px;
+	overflow-y:scroll; 
+}
+
+.main-wrapper>iframe {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding-top: 70px;
+	margin-top: -70px;
+	border: 0;
+}

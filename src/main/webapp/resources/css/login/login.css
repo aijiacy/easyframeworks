@@ -1,0 +1,52 @@
+.login-bg {
+	background: url("../../images/login/bg.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 200px;
+}
+
+.login-wrapper .logo {
+	margin-bottom: 45px;
+}
+
+.login-wrapper .box {
+	background: url("../../images/login/login_bg.png") no-repeat center fixed;
+	margin: 0 auto;
+	width: 388px;
+	box-shadow: 0 0 10px 8px rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	background: rgba(0, 0, 60, 0.12);
+}
+
+.login-wrapper .box input[name="username"],.login-wrapper .box input[name="password"],.login-wrapper .box input[name="code"]
+	{
+	font-size: 15px;
+	border-color: #b2bfc7;
+	padding-left: 24px;
+	width: 80%;
+}
+
+.login-wrapper .box input[name="username"] {
+	background-image: url(../../images/login/ico_user.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.login-wrapper .box input[name="password"] {
+	background-image: url(../../images/login/ico_code.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.login-wrapper .box input[name="code"] {
+	background-image: url(../../images/login/ico_check.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 49%;
+}
+
+.login-button{
+	width:80%;
+}
